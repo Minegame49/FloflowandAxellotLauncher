@@ -22,28 +22,27 @@
     border: none;
     margin: 2% 0;
     height: 2em;
-    background-color: #8df0b6;
-    box-shadow: 0 0 5px #00bd7a;
+    background-color: #b7f5c6; /* vert pastel */
+    box-shadow: 0 0 5px #a1eeb3;
     color: #121212;
     font: normal normal bold 19px/29px Poppins;
     cursor: pointer;
 }
 
-
 .login-type-btn:hover {
-    background-color: #006e47;
-    box-shadow: 0 0 5px #006e47;
+    background-color: #a1eeb3; /* plus foncé */
+    box-shadow: 0 0 5px #a1eeb3;
 }
 
 .login-type-btn:disabled {
-    background-color: #00bd7a;
-    box-shadow: 0 0 5px #00bd7a;
+    background-color: #b7f5c6;
+    box-shadow: 0 0 5px #b7f5c6;
     cursor: default;
 }
 
 .login-type-btn:disabled:hover {
-    background-color: #00bd7a;
-    box-shadow: 0 0 5px #00bd7a;
+    background-color: #b7f5c6;
+    box-shadow: 0 0 5px #b7f5c6;
 }
 
 .microsoft {
@@ -99,16 +98,16 @@
     border: none;
     margin: 2% 0;
     height: 2em;
-    background-color: #00bd7a;
-    box-shadow: 0 0 5px #00bd7a;
+    background-color: #b7f5c6;
+    box-shadow: 0 0 5px #a1eeb3;
     color: #121212;
     font: normal normal bold 19px/29px Poppins;
     cursor: pointer;
 }
 
 .login-btn:hover {
-    background-color: #006e47;
-    box-shadow: 0 0 5px #006e47;
+    background-color: #a1eeb3;
+    box-shadow: 0 0 5px #a1eeb3;
 }
 
 .cancel {
@@ -139,17 +138,19 @@
     color: #fff;
     text-decoration: none;
 }
+
 .login-btn-2f {
     border-radius: 15px;
     border: none;
     margin: 2% 0;
     height: 2em;
-    background-color: #00bd7a;
-    box-shadow: 0 0 5px #00bd7a;
+    background-color: #b7f5c6;
+    box-shadow: 0 0 5px #a1eeb3;
     color: #121212;
     font: normal normal bold 19px/29px Poppins;
     cursor: pointer;
 }
+
 .a2f-card {
     position: absolute;
     top: 52%;
@@ -163,6 +164,7 @@
     border-radius: 15px;
     text-align: center;
 }
+
 .cancel-2f {
     border: none;
     background-color: #ffffff00;
@@ -170,9 +172,11 @@
     font: normal normal bold 19px/29px Poppins;
     cursor: pointer;
 }
+
 .cancel-2f:hover {
     color: #373737;
 }
+
 .email-verify-card {
     position: absolute;
     top: 52%;
@@ -186,6 +190,7 @@
     border-radius: 15px;
     text-align: center;
 }
+
 .cancel-email {
     border: none;
     background-color: #ffffff00;
@@ -193,6 +198,7 @@
     font: normal normal bold 19px/29px Poppins;
     cursor: pointer;
 }
+
 .cancel-email:hover {
     color: #373737;
-} 
+}

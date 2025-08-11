@@ -151,12 +151,17 @@
     height: 37px;
     border-radius: 20px;
     border: none;
-    background: #8beea1;
+    background: #f8b8d8; /* rose pastel */
     font: normal normal bold 20px/25px Poppins;
     color: #121212;
     margin: 15px 0;
-    box-shadow: 0 0 5px #71e9bf;
+    box-shadow: 0 0 5px #f5a6cc; /* ombre pastel */
     cursor: pointer;
+}
+
+.play-btn:hover {
+    background: #f5a6cc; /* rose pastel plus foncé */
+    box-shadow: 0 0 10px #f5a6cc;
 }
 
 .download-content {
